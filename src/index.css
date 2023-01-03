@@ -44,3 +44,15 @@ code {
   color: #fff;
   border-bottom: 3px solid #fff;
 }
+.custom_caption {
+  top: 45%;
+  transform: translateY(-50%);
+  text-align: left;
+  left: 0;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #3577f0 !important;
+}
+.carousel-control-prev, .carousel-control-next {
+  display: none;
+}
