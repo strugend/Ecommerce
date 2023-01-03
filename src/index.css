@@ -29,3 +29,18 @@ code {
 .text_custom_seconadry:hover {
   color: #dedee0;
 }
+.search_input {
+  top: 6px;
+  left: 10px;
+}
+.nav_links {
+  color: #fff;
+  border-bottom: 3px solid transparent;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin: 0 10px;
+}
+.nav_links:hover {
+  color: #fff;
+  border-bottom: 3px solid #fff;
+}
