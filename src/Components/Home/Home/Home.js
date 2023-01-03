@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroSection from '../HeroSection/HeroSection';
+import PopularProducts from '../PopularProducts/PopularProducts';
 import ProductCategory from '../ProductCategory/ProductCategory';
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <>
             <HeroSection></HeroSection>
             <ProductCategory></ProductCategory>
+            <PopularProducts></PopularProducts>
         </>
     );
 };

@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #292930;
 }
 
 code {
@@ -21,6 +22,9 @@ code {
 }
 .text_custom_primary {
   color: #292930;
+}
+.text_bg_color {
+  color: #3577f0;
 }
 .text_custom_seconadry {
   color: #c2c2cc;
@@ -55,4 +59,38 @@ code {
 }
 .carousel-control-prev, .carousel-control-next {
   display: none;
+}
+.product {
+  position: relative;
+}
+.wish_btn{
+  border: none;
+  background-color: #3576f096;
+  color: #fff;
+  border-radius: 6px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+.details_btn{
+  border: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 7px;
+  background-color: #3577f0;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0 0 8px 8px;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+.product:hover .details_btn, .product:hover .wish_btn {
+  opacity: 1;
 }
