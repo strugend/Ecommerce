@@ -10,13 +10,21 @@ const ProductCategory = () => {
     return (
         <Container className='my-5'>
             <Swiper
-                slidesPerView={3}
+                slidesPerView={1}
                 spaceBetween={30}
                 pagination={{
                     clickable: true,
                 }}
                 modules={[Pagination]}
                 className="mySwiper"
+                breakpoints={{
+                    768: {
+                        slidesPerView: 2
+                    },
+                    1200: {
+                        slidesPerView: 3
+                    }
+                }}
             >
                 <SwiperSlide>
                     <div className='border rounded-4 p-4 d-flex justify-content-between align-items-center'>
