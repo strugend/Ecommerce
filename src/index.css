@@ -110,3 +110,19 @@ code {
   align-items: center;
   flex-direction: column;
 }
+
+@media screen and (max-width:768px) {
+  .custom_caption {
+    top: 30%;
+  }
+  .custom_caption h1 {
+    font-size: 20px;
+  }
+  .carousel-indicators {
+    bottom: -30px;
+  }
+  .custom_caption .btn {
+    padding: 2px 5px;
+    font-size: 14px;
+  }
+}

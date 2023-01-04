@@ -18,7 +18,7 @@ const HeroSection = () => {
                     <Carousel.Caption className='custom_caption'>
                         <div className='text_custom_primary'>
                             <h1>SONY<br/>PLAYSTATION</h1>
-                            <div className='mt-5'>
+                            <div className='mt-0 mt-lg-4'>
                                 <button className='btn btn-primary me-4'>Shop Now</button>
                                 <button className='btn btn-warning'>View More</button>
                             </div>
@@ -35,7 +35,7 @@ const HeroSection = () => {
                     <Carousel.Caption className='custom_caption'>
                         <div className='text_custom_primary'>
                             <h1>CANON<br/>CAMERA</h1>
-                            <div className='mt-5'>
+                            <div className='mt-0 mt-lg-4'>
                                 <button className='btn btn-primary me-4'>Shop Now</button>
                                 <button className='btn btn-warning'>View More</button>
                             </div>
@@ -52,8 +52,8 @@ const HeroSection = () => {
                     <Carousel.Caption className='custom_caption'>
                         <div className='text_custom_primary'>
                             <h1>BASS<br/>HEADPHONE</h1>
-                            <div className='mt-5'>
-                                <button className='btn btn-primary me-4'>Shop Now</button>
+                            <div className='mt-0 mt-lg-4'>
+                                <button className='btn btn-md-lg btn-primary me-4'>Shop Now</button>
                                 <button className='btn btn-warning'>View More</button>
                             </div>
                         </div>
